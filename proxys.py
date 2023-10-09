@@ -29,5 +29,5 @@ def proxy(url: str):
     return None
 
 if __name__ == "__main__":
-    p = proxy("https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt")
+    p = proxy("https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt")
     print("%s %s" % (p[0], p[1]))
